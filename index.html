@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Sinais VIP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-container">
+        <h2>Acesso aos Sinais</h2>
+        <input type="text" id="username" placeholder="Usuário">
+        <input type="password" id="password" placeholder="Senha">
+        <button onclick="login()">Entrar</button>
+        <p id="login-message"></p>
+    </div>
+
+    <div id="sinais-container" style="display: none;">
+        <h1>Sinal Atual:</h1>
+        <h2 id="sinal-display">Carregando...</h2>
+        <button onclick="logout()">Sair</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
